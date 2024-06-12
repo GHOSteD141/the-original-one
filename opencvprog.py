@@ -3,7 +3,7 @@ from tracker import *
 
 # Create tracker object
 tracker = EuclideanDistTracker()
-
+#put your video path here 
 cap = cv2.VideoCapture("highway.mp4")
 
 # Object detection from Stable camera
