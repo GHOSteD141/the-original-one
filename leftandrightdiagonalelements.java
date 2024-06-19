@@ -20,9 +20,11 @@ public class leftandrightdiagonalelements {
         System.out.println("Right Diagonal elements:");
         for (int i = 0; i < 3; i++) {
             System.out.println(matrix[i][2 - i]);
-        
+            
         }
-        
+    scanner.close();
     }
-
+        
 }
+
+
